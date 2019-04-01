@@ -20,7 +20,7 @@ if( a == b ){
 	
 cout<< "Grattis!";
 
-} else if ( svar1 > 0 and svar2 > 0 and svar2 or svar1 <= 10){
+} else if ( svar1 > 0 and svar2 > 0 or svar2 <= 10 and svar1 <= 10){
 	
 cout << "Close but no cigar!";
 	
