@@ -1,13 +1,15 @@
 #include <iostream>
 
-using namespace std;
-
+using namespace std; 
 
 int main(int argc, char** argv) {
 	
-float a, b, svar1, matte, svar2, svar3, svar4;
+bool start = true;
 
-cout << "Skriv in Addition, Subtraktion, Division, Multiplikation";
+float a, b, svar1, svar2, svar3, svar4;
+string matte;
+
+cout << "Skriv in ";
 cin >> matte;
 
 cout << "Skriv första talet som du ska använda räknesättet på" << endl;
@@ -17,7 +19,7 @@ cout << "Skriv andra talet som du ska använda räknesättet på";
 cin >> b;
 
 
-if(matte ==  ){
+if(matte == 1 ){
 	
 svar1 = a + b;
 
@@ -53,4 +55,17 @@ cout << "svaret är " << svar4;
 	
 	return 0;
 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
